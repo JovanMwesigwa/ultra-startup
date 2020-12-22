@@ -25,9 +25,10 @@ function Navbar() {
                     </MobileIcon>
                     <NavMenu onClick={toggle} clicked={clicked}>
                         <NavLinks>
-                            <NavLink to='/'>HOME</NavLink>
-                            <NavLink to='/'>ABOUT</NavLink>
-                            <NavLink to='/'>SERVICES</NavLink>
+                            <NavLink to='/'>Home</NavLink>
+                            <NavLink to='/about'>About</NavLink>
+                            <NavLink to='/services'>Services</NavLink>
+                            <NavLink to='/products'>Products</NavLink>
                         </NavLinks>
                     </NavMenu>
                 </NavbarContainer>

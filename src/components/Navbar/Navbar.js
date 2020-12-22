@@ -24,11 +24,11 @@ function Navbar() {
                         }
                     </MobileIcon>
                     <NavMenu onClick={toggle} clicked={clicked}>
-                        {/* <NavLinks>
+                        <NavLinks>
                             <NavLink to='/'>HOME</NavLink>
                             <NavLink to='/'>ABOUT</NavLink>
                             <NavLink to='/'>SERVICES</NavLink>
-                        </NavLinks> */}
+                        </NavLinks>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

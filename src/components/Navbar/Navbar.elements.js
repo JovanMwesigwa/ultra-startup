@@ -70,6 +70,30 @@ export const NavMenu = styled.div`
 
 `;
 
-export const NavLink = styled(Link)``;
+export const NavLinks = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 
-export const NavLinks = styled.div``;
+`;
+
+export const NavLink = styled(Link)`
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+    &:hover{
+        font-size: 1.8rem;
+        background-color: #fff;
+        color: #101522;
+        font-weight: 600;
+        transition: 0.4s ease-in;
+    }
+`;
+

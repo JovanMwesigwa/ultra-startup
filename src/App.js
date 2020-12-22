@@ -1,11 +1,14 @@
 import React from 'react';
-
+import Navbar from './components/Navbar/Navbar';
+import {  BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import GlobalStyle from './globalStyles';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hieleo</h1>
-    </div>
+    <Router>
+      <GlobalStyle />
+      <Navbar />
+    </Router>
   );
 }
 

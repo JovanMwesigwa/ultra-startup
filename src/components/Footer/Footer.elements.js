@@ -30,3 +30,24 @@ export const FooterSubText = styled.p`
     margin-bottom: 24px;
     font-size: 20px;
 `
+
+export const Form = styled.form`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 820px){
+        flex-direction: column;
+        width: 80%;
+    }   
+`;
+
+export const FormInput = styled.input`
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #fff;
+    margin-bottom: 55px;
+`;

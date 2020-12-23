@@ -69,7 +69,7 @@ export const Subtitle = styled.p`
 export const ImgWrapper = styled.div`
     max-width: 555px;
     display: flex;
-    flex-direction: ${({ start })=> (start ? 'flex-start' : 'flex-end')};
+    flex-direction: ${({ start })=> (start === 'true' ? 'flex-start' : 'flex-end')};
     align-items: center;
 `;
 

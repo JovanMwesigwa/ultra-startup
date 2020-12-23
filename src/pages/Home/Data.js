@@ -37,7 +37,7 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     lightBg: false,
-    primary: true, 
+    primary: false, 
     topLine: 'Marketing agency',
     heading: 'Lead generation specialists for Online business', 
     description: 'We help business owners increase their revenue. Our team of unique spaecialists can help you achieve your business goals',
@@ -52,16 +52,16 @@ export const homeObjThree = {
 }
 
 export const homeObjFour = {
-    lightBg: false,
+    lightBg: true,
     primary: true, 
     topLine: 'Marketing agency',
     heading: 'Lead generation specialists for Online business', 
     description: 'We help business owners increase their revenue. Our team of unique spaecialists can help you achieve your business goals',
     buttonLabel: 'Get Started', 
     imgStart: '', 
-    lightSubtitle: true, 
-    lightHeading: true, 
-    lightTopLine: true,
+    lightSubtitle: false, 
+    lightHeading: false, 
+    lightTopLine: false,
     start: '', 
     img: svg2, 
     alt: 'Image',
